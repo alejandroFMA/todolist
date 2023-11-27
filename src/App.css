@@ -18,6 +18,50 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+form{
+
+  border-radius: 5%;
+  padding: 50px;
+  -webkit-box-shadow: 9px 18px 70px 6px rgba(44,192,222,1);
+-moz-box-shadow: 9px 18px 70px 6px rgba(44,192,222,1);
+box-shadow: 9px 18px 70px 6px rgba(44,192,222,1);
+margin:95px;
+
+}
+.itemcontainer{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+article{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+  border-radius: 5px;
+  
+}
+
+
+article:hover{
+  -webkit-box-shadow: 9px 20px 54px 28px rgba(44,192,222,0.67);
+  -moz-box-shadow: 9px 20px 54px 28px rgba(44,192,222,0.67);
+  box-shadow: 9px 20px 54px 28px rgba(44,192,222,0.67);
+  
+}
+
+
+.deletebutton:hover{
+  background-color: red;
+  color:white;
+  border-style: none;
+
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
