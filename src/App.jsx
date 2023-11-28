@@ -53,7 +53,7 @@ function App() {
 
  
     const handleChange = (e) => {
-      if (e.target.value.length > 0)
+      if (e.target.value.length > 5)
         setShow(true);
       else
         setShow(false)
